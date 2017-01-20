@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11761" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NumberPad" customModule="Wiz" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="p9E-0p-MXj"/>
+                <outletCollection property="numberBoxes" destination="nRJ-zu-BrZ" collectionClass="NSMutableArray" id="HwJ-k0-xTI"/>
+                <outletCollection property="numberBoxes" destination="ET8-2d-tfb" collectionClass="NSMutableArray" id="AI3-7F-EcZ"/>
+                <outletCollection property="numberBoxes" destination="QKR-zm-prb" collectionClass="NSMutableArray" id="VJc-Iv-Yml"/>
+                <outletCollection property="numberBoxes" destination="oU9-Dm-tTy" collectionClass="NSMutableArray" id="kAz-bW-kk1"/>
+                <outletCollection property="numberBoxes" destination="D2T-5m-GgN" collectionClass="NSMutableArray" id="8yi-Be-8NJ"/>
+                <outletCollection property="numberBoxes" destination="x1g-49-D96" collectionClass="NSMutableArray" id="jyy-1r-HZQ"/>
+                <outletCollection property="numberBoxes" destination="ne0-PP-uyE" collectionClass="NSMutableArray" id="H1p-zY-0OX"/>
+                <outletCollection property="numberBoxes" destination="F4b-ki-Den" collectionClass="NSMutableArray" id="4je-2e-lU9"/>
+                <outletCollection property="numberBoxes" destination="eGh-3N-rpX" collectionClass="NSMutableArray" id="rxh-W4-6xa"/>
+                <outletCollection property="numberBoxes" destination="o5p-UL-9zr" collectionClass="NSMutableArray" id="Lfx-yI-nCL"/>
+                <outletCollection property="numberBoxes" destination="4rp-eJ-Khz" collectionClass="NSMutableArray" id="FMr-km-lDm"/>
+                <outletCollection property="numberBoxes" destination="5VV-o7-i38" collectionClass="NSMutableArray" id="jKX-vu-yar"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="y9B-xy-yCy">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="pPh-7n-Wha">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="164"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nRJ-zu-BrZ" customClass="NumberBox" customModule="Wiz" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="122.5" height="164"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="numValue">
+                                            <integer key="value" value="7"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ET8-2d-tfb" customClass="NumberBox" customModule="Wiz" customModuleProvider="target">
+                                    <rect key="frame" x="126.5" y="0.0" width="122" height="164"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="numValue">
+                                            <integer key="value" value="8"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QKR-zm-prb" customClass="NumberBox" customModule="Wiz" customModuleProvider="target">
+                                    <rect key="frame" x="252.5" y="0.0" width="122.5" height="164"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="numValue">
+                                            <integer key="value" value="9"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="V1Q-tW-a2C">
+                            <rect key="frame" x="0.0" y="168" width="375" height="163.5"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oU9-Dm-tTy" customClass="NumberBox" customModule="Wiz" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="122.5" height="163.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="numValue">
+                                            <integer key="value" value="4"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D2T-5m-GgN" customClass="NumberBox" customModule="Wiz" customModuleProvider="target">
+                                    <rect key="frame" x="126.5" y="0.0" width="122" height="163.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="numValue">
+                                            <integer key="value" value="5"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x1g-49-D96" customClass="NumberBox" customModule="Wiz" customModuleProvider="target">
+                                    <rect key="frame" x="252.5" y="0.0" width="122.5" height="163.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="numValue">
+                                            <integer key="value" value="6"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="dfa-Xm-laD">
+                            <rect key="frame" x="0.0" y="335.5" width="375" height="164"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ne0-PP-uyE" customClass="NumberBox" customModule="Wiz" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="122.5" height="164"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="numValue">
+                                            <integer key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F4b-ki-Den" customClass="NumberBox" customModule="Wiz" customModuleProvider="target">
+                                    <rect key="frame" x="126.5" y="0.0" width="122" height="164"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="numValue">
+                                            <integer key="value" value="2"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eGh-3N-rpX" customClass="NumberBox" customModule="Wiz" customModuleProvider="target">
+                                    <rect key="frame" x="252.5" y="0.0" width="122.5" height="164"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="numValue">
+                                            <integer key="value" value="3"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="xmR-aF-09A">
+                            <rect key="frame" x="0.0" y="503.5" width="375" height="163.5"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o5p-UL-9zr" customClass="NumberBox" customModule="Wiz" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="122.5" height="163.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="numValue">
+                                            <integer key="value" value="10"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4rp-eJ-Khz" customClass="NumberBox" customModule="Wiz" customModuleProvider="target">
+                                    <rect key="frame" x="126.5" y="0.0" width="122" height="163.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="numValue">
+                                            <integer key="value" value="0"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5VV-o7-i38" customClass="NumberBox" customModule="Wiz" customModuleProvider="target">
+                                    <rect key="frame" x="252.5" y="0.0" width="122.5" height="163.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="numValue">
+                                            <integer key="value" value="11"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="y9B-xy-yCy" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="2aO-p6-pZz"/>
+                <constraint firstItem="y9B-xy-yCy" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="5BE-RB-JQd"/>
+                <constraint firstItem="y9B-xy-yCy" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="DbV-xn-te6"/>
+                <constraint firstItem="y9B-xy-yCy" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="bfc-8b-IAe"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </view>
+    </objects>
+</document>
