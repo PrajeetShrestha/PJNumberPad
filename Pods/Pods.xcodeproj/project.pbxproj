@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		653F092041E986DCE129EF0E529584A8 /* Pods-PJNumberPad-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CDDE82332C32F9C3876977C2AD94F61 /* Pods-PJNumberPad-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0C23F0B5BD4F154B0AAA603B3C368FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		FFA593AD2BCFB8162AB118D74E401442 /* Pods-PJNumberPad-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A97CAA0BD0EE16EB6CFA8F763F8DBE1F /* Pods-PJNumberPad-dummy.m */; };
+		694EC98F2C0BAE23C2B1E8720B7BD5D2 /* Pods-PJNumberPad-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A97CAA0BD0EE16EB6CFA8F763F8DBE1F /* Pods-PJNumberPad-dummy.m */; };
+		B5DA47C8DDC8426F1EFB9D343516719C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		BD65D05D25B9BCD4536FA8C97F07B7B4 /* Pods-PJNumberPad-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CDDE82332C32F9C3876977C2AD94F61 /* Pods-PJNumberPad-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		32634B243D26BD57C27DD66795026964 /* Pods-PJNumberPad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PJNumberPad.release.xcconfig"; sourceTree = "<group>"; };
 		3CDDE82332C32F9C3876977C2AD94F61 /* Pods-PJNumberPad-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PJNumberPad-umbrella.h"; sourceTree = "<group>"; };
 		68AB6892DE310F6B9CEA71C8439A26E9 /* Pods-PJNumberPad-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PJNumberPad-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E8333A415F047AC60A1E5323BE3D9C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A97CAA0BD0EE16EB6CFA8F763F8DBE1F /* Pods-PJNumberPad-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PJNumberPad-dummy.m"; sourceTree = "<group>"; };
-		C8706B8C2FA53531B68F150EEFE5DB7E /* Pods_PJNumberPad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PJNumberPad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8706B8C2FA53531B68F150EEFE5DB7E /* Pods_PJNumberPad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PJNumberPad.framework; path = "Pods-PJNumberPad.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAE9D13AB9A9A4EFD0430D1BE48A8975 /* Pods-PJNumberPad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PJNumberPad.debug.xcconfig"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DB9A71433C2687D0B9E1109C1ACC36CF /* Pods-PJNumberPad-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PJNumberPad-acknowledgements.plist"; sourceTree = "<group>"; };
-		E0BFBA0BA3E58F7251F3ED8386E005CF /* Pods-PJNumberPad.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PJNumberPad.modulemap"; sourceTree = "<group>"; };
+		E0BFBA0BA3E58F7251F3ED8386E005CF /* Pods-PJNumberPad.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PJNumberPad.modulemap"; sourceTree = "<group>"; };
 		E0F90C9F81D8C044D284058656539AD8 /* Pods-PJNumberPad-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PJNumberPad-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CF393F08818D30454679F03D2DC8F926 /* Frameworks */ = {
+		0280774082C63E005216EC2400860EE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0C23F0B5BD4F154B0AAA603B3C368FA /* Foundation.framework in Frameworks */,
+				B5DA47C8DDC8426F1EFB9D343516719C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,24 +101,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4C5B8521012B99E8141CCB7DFC1FBD8B /* Headers */ = {
+		46E698F01CB1CB67A519A30DA0ECD1DA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				653F092041E986DCE129EF0E529584A8 /* Pods-PJNumberPad-umbrella.h in Headers */,
+				BD65D05D25B9BCD4536FA8C97F07B7B4 /* Pods-PJNumberPad-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E25968A17ADC45C506C692EB534DC668 /* Pods-PJNumberPad */ = {
+		36C7ADDB31401BB8E0CE63F0F204C346 /* Pods-PJNumberPad */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 791380E47F2030ABBD9956890A1B7D5A /* Build configuration list for PBXNativeTarget "Pods-PJNumberPad" */;
+			buildConfigurationList = 8E7C8C857AAD431D0D3A4402F423AAA2 /* Build configuration list for PBXNativeTarget "Pods-PJNumberPad" */;
 			buildPhases = (
-				F4C32AC3A3F25DA90F834E652A4FA4D5 /* Sources */,
-				CF393F08818D30454679F03D2DC8F926 /* Frameworks */,
-				4C5B8521012B99E8141CCB7DFC1FBD8B /* Headers */,
+				E396B090D9FA0207D6B20E5B26C8B997 /* Sources */,
+				0280774082C63E005216EC2400860EE0 /* Frameworks */,
+				46E698F01CB1CB67A519A30DA0ECD1DA /* Headers */,
 			);
 			buildRules = (
 			);
@@ -150,24 +150,24 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E25968A17ADC45C506C692EB534DC668 /* Pods-PJNumberPad */,
+				36C7ADDB31401BB8E0CE63F0F204C346 /* Pods-PJNumberPad */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F4C32AC3A3F25DA90F834E652A4FA4D5 /* Sources */ = {
+		E396B090D9FA0207D6B20E5B26C8B997 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFA593AD2BCFB8162AB118D74E401442 /* Pods-PJNumberPad-dummy.m in Sources */,
+				694EC98F2C0BAE23C2B1E8720B7BD5D2 /* Pods-PJNumberPad-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0A9563C84D05BF877C4D44349FCE884E /* Release */ = {
+		1BA66DEA3E3C81995AA1946EC1437867 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 32634B243D26BD57C27DD66795026964 /* Pods-PJNumberPad.release.xcconfig */;
 			buildSettings = {
@@ -242,7 +242,7 @@
 			};
 			name = Release;
 		};
-		B1D2C8FDC7F440F8B476C855B2BAA987 /* Debug */ = {
+		8C276500C75E9491DF00481FA439657A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CAE9D13AB9A9A4EFD0430D1BE48A8975 /* Pods-PJNumberPad.debug.xcconfig */;
 			buildSettings = {
@@ -333,11 +333,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		791380E47F2030ABBD9956890A1B7D5A /* Build configuration list for PBXNativeTarget "Pods-PJNumberPad" */ = {
+		8E7C8C857AAD431D0D3A4402F423AAA2 /* Build configuration list for PBXNativeTarget "Pods-PJNumberPad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B1D2C8FDC7F440F8B476C855B2BAA987 /* Debug */,
-				0A9563C84D05BF877C4D44349FCE884E /* Release */,
+				8C276500C75E9491DF00481FA439657A /* Debug */,
+				1BA66DEA3E3C81995AA1946EC1437867 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
