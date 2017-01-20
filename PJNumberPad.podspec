@@ -6,7 +6,7 @@ s.name = "PJNumberPad"
 s.summary = "PJNumberPad lets you create your custom number pad."
 s.requires_arc = true
 s.version = "0.1.0"
-s.license = { :type => "MIT", :file => "LICENSE" }
+s.license = 'MIT'
 s.author = { "Prajeet Shrestha" => "prajeet.shrestha@gmail.com" }
 s.homepage = "https://github.com/PrajeetShrestha/PJNumberPad"
 s.source = { :git => "https://github.com/PrajeetShrestha/PJNumberPad.git", :tag => "#{s.version}"}

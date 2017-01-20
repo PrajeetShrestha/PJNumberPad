@@ -13,6 +13,7 @@
 		B616FAF11E32735E0083AA1B /* NumberBox.xib in Resources */ = {isa = PBXBuildFile; fileRef = B616FAED1E32735E0083AA1B /* NumberBox.xib */; };
 		B616FAF21E32735E0083AA1B /* NumberPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = B616FAEE1E32735E0083AA1B /* NumberPad.swift */; };
 		B616FAF31E32735E0083AA1B /* NumberPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B616FAEF1E32735E0083AA1B /* NumberPad.xib */; };
+		B616FAF51E327B720083AA1B /* NibLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B616FAF41E327B720083AA1B /* NibLoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		B616FAED1E32735E0083AA1B /* NumberBox.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumberBox.xib; sourceTree = "<group>"; };
 		B616FAEE1E32735E0083AA1B /* NumberPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberPad.swift; sourceTree = "<group>"; };
 		B616FAEF1E32735E0083AA1B /* NumberPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumberPad.xib; sourceTree = "<group>"; };
+		B616FAF41E327B720083AA1B /* NibLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadingView.swift; sourceTree = "<group>"; };
 		F7EF182FFC8141AB8CA3BE25 /* Pods-PJNumberPad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PJNumberPad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PJNumberPad/Pods-PJNumberPad.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +73,7 @@
 		B616FAEB1E32735E0083AA1B /* PJNumberPad */ = {
 			isa = PBXGroup;
 			children = (
+				B616FAF41E327B720083AA1B /* NibLoadingView.swift */,
 				B616FAEC1E32735E0083AA1B /* NumberBox.swift */,
 				B616FAED1E32735E0083AA1B /* NumberBox.xib */,
 				B616FAEE1E32735E0083AA1B /* NumberPad.swift */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B616FAF51E327B720083AA1B /* NibLoadingView.swift in Sources */,
 				B616FAF21E32735E0083AA1B /* NumberPad.swift in Sources */,
 				B616FAF01E32735E0083AA1B /* NumberBox.swift in Sources */,
 			);

@@ -43,10 +43,6 @@ class NumberBox: NibLoadingView {
             } else {
                 self.lblNum.text = "\(numValue)"
             }
-            
-//            let numStyle = NumberColor(num: numValue)
-//            self.view.backgroundColor = numStyle.backgroundColor
-//            self.lblNum.textColor = numStyle.textColor
         }
     }
     
