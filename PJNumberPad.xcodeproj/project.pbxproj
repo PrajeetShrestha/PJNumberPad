@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		88D1292E84952F9201599D61 /* Pods_PJNumberPad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99263E53584070281BC7618D /* Pods_PJNumberPad.framework */; };
 		B616FADC1E3270680083AA1B /* PJNumberPad.h in Headers */ = {isa = PBXBuildFile; fileRef = B616FADA1E3270680083AA1B /* PJNumberPad.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B616FAF01E32735E0083AA1B /* NumberBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B616FAEC1E32735E0083AA1B /* NumberBox.swift */; };
-		B616FAF11E32735E0083AA1B /* NumberBox.xib in Resources */ = {isa = PBXBuildFile; fileRef = B616FAED1E32735E0083AA1B /* NumberBox.xib */; };
-		B616FAF21E32735E0083AA1B /* NumberPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = B616FAEE1E32735E0083AA1B /* NumberPad.swift */; };
-		B616FAF31E32735E0083AA1B /* NumberPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B616FAEF1E32735E0083AA1B /* NumberPad.xib */; };
-		B616FAF51E327B720083AA1B /* NibLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B616FAF41E327B720083AA1B /* NibLoadingView.swift */; };
+		B6B19DFD1E32862100325014 /* NibLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B19DF81E32862100325014 /* NibLoadingView.swift */; };
+		B6B19DFE1E32862100325014 /* NumberBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B19DF91E32862100325014 /* NumberBox.swift */; };
+		B6B19DFF1E32862100325014 /* NumberBox.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6B19DFA1E32862100325014 /* NumberBox.xib */; };
+		B6B19E001E32862100325014 /* NumberPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B19DFB1E32862100325014 /* NumberPad.swift */; };
+		B6B19E011E32862100325014 /* NumberPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6B19DFC1E32862100325014 /* NumberPad.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,11 +22,11 @@
 		B616FAD71E3270680083AA1B /* PJNumberPad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PJNumberPad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B616FADA1E3270680083AA1B /* PJNumberPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PJNumberPad.h; sourceTree = "<group>"; };
 		B616FADB1E3270680083AA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B616FAEC1E32735E0083AA1B /* NumberBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberBox.swift; sourceTree = "<group>"; };
-		B616FAED1E32735E0083AA1B /* NumberBox.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumberBox.xib; sourceTree = "<group>"; };
-		B616FAEE1E32735E0083AA1B /* NumberPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberPad.swift; sourceTree = "<group>"; };
-		B616FAEF1E32735E0083AA1B /* NumberPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumberPad.xib; sourceTree = "<group>"; };
-		B616FAF41E327B720083AA1B /* NibLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadingView.swift; sourceTree = "<group>"; };
+		B6B19DF81E32862100325014 /* NibLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadingView.swift; sourceTree = "<group>"; };
+		B6B19DF91E32862100325014 /* NumberBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberBox.swift; sourceTree = "<group>"; };
+		B6B19DFA1E32862100325014 /* NumberBox.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumberBox.xib; sourceTree = "<group>"; };
+		B6B19DFB1E32862100325014 /* NumberPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberPad.swift; sourceTree = "<group>"; };
+		B6B19DFC1E32862100325014 /* NumberPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumberPad.xib; sourceTree = "<group>"; };
 		F7EF182FFC8141AB8CA3BE25 /* Pods-PJNumberPad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PJNumberPad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PJNumberPad/Pods-PJNumberPad.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,23 +63,23 @@
 		B616FAD91E3270680083AA1B /* PJNumberPad */ = {
 			isa = PBXGroup;
 			children = (
-				B616FAEB1E32735E0083AA1B /* PJNumberPad */,
+				B6B19DF71E32862100325014 /* src */,
 				B616FADA1E3270680083AA1B /* PJNumberPad.h */,
 				B616FADB1E3270680083AA1B /* Info.plist */,
 			);
 			path = PJNumberPad;
 			sourceTree = "<group>";
 		};
-		B616FAEB1E32735E0083AA1B /* PJNumberPad */ = {
+		B6B19DF71E32862100325014 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				B616FAF41E327B720083AA1B /* NibLoadingView.swift */,
-				B616FAEC1E32735E0083AA1B /* NumberBox.swift */,
-				B616FAED1E32735E0083AA1B /* NumberBox.xib */,
-				B616FAEE1E32735E0083AA1B /* NumberPad.swift */,
-				B616FAEF1E32735E0083AA1B /* NumberPad.xib */,
+				B6B19DF81E32862100325014 /* NibLoadingView.swift */,
+				B6B19DF91E32862100325014 /* NumberBox.swift */,
+				B6B19DFA1E32862100325014 /* NumberBox.xib */,
+				B6B19DFB1E32862100325014 /* NumberPad.swift */,
+				B6B19DFC1E32862100325014 /* NumberPad.xib */,
 			);
-			path = PJNumberPad;
+			path = src;
 			sourceTree = "<group>";
 		};
 		C23E04CA435014EBA570D819 /* Frameworks */ = {
@@ -170,8 +170,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B616FAF31E32735E0083AA1B /* NumberPad.xib in Resources */,
-				B616FAF11E32735E0083AA1B /* NumberBox.xib in Resources */,
+				B6B19E011E32862100325014 /* NumberPad.xib in Resources */,
+				B6B19DFF1E32862100325014 /* NumberBox.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B616FAF51E327B720083AA1B /* NibLoadingView.swift in Sources */,
-				B616FAF21E32735E0083AA1B /* NumberPad.swift in Sources */,
-				B616FAF01E32735E0083AA1B /* NumberBox.swift in Sources */,
+				B6B19E001E32862100325014 /* NumberPad.swift in Sources */,
+				B6B19DFE1E32862100325014 /* NumberBox.swift in Sources */,
+				B6B19DFD1E32862100325014 /* NibLoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
